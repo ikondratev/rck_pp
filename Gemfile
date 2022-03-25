@@ -6,6 +6,12 @@ gem 'rack', '~> 2.2'
 gem 'rack-parser'
 gem 'rake', '12.3.2'
 
+# App layer
 gem 'require_all', '~> 2.0'
 gem 'activesupport', '~> 6.1.1'
 gem 'config', '~> 3.1'
+
+# DI layer
+gem 'dry-system', '0.18.1'
+gem 'dry-transaction', '0.13.3'
+gem 'dry-view', '0.7.1'

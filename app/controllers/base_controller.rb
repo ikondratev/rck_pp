@@ -4,11 +4,8 @@ class BaseController
   end
 
   def ping
-    build_response("pong")
-  end
-
-  def message_count(params)
-    build_response("it's working", status: 200)
+    result = Application::Container["services.ping"].call
+    build_response(result)
   end
 
   def not_found
