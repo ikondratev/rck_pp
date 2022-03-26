@@ -15,3 +15,6 @@ gem 'config', '~> 3.1'
 gem 'dry-system', '0.18.1'
 gem 'dry-transaction', '0.13.3'
 gem 'dry-view', '0.7.1'
+
+# Linters
+gem 'rubocop', require: false

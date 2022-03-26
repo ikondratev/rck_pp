@@ -1,4 +1,5 @@
 class App
+
   def call(env)
     request = Rack::Request.new(env)
     serve_request(request)
