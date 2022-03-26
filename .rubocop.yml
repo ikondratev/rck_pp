@@ -4,6 +4,7 @@ AllCops:
     - Gemfile
     - test/*
     - config.ru
+    - Rakefile
 
 Style/FrozenStringLiteralComment:
   Enabled: false
