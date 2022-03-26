@@ -18,3 +18,4 @@ gem 'dry-view', '0.7.1'
 
 # Linters
 gem 'rubocop', require: false
+gem 'rubocop-rake', require: false
