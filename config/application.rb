@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
 # require gems
-require "bundler"
-Bundler.require(:default, ENV["RACK_ENV"] || "development")
+require 'bundler'
 
-require "simplecov" if ENV["COVERAGE"]
+Bundler.require(:default, ENV["RACK_ENV"] || "development")
 
 # require additional gem files
 require "active_support/all"
