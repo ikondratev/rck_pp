@@ -4,7 +4,7 @@ ruby '2.7.2'
 # Web layer
 gem 'rack', '~> 2.2'
 gem 'rack-parser'
-gem 'rake', '12.3.2'
+gem "rake", ">= 12.3.3"
 
 # App layer
 gem 'require_all', '~> 2.0'
