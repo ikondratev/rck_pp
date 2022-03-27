@@ -1,0 +1,1 @@
+class BackendError < StandardError; end
