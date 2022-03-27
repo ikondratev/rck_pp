@@ -1,6 +1,6 @@
 *.gem
 
 .idea/
-
+log/*.log
 Gemfile.lock
 rubocop.yml

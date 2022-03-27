@@ -20,7 +20,7 @@ class Router
   private
 
   def controller
-    @controller ||= BaseController.new(@request)
+    @controller ||= ServicesController.new(@request)
   end
 
   def params

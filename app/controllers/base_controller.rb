@@ -1,11 +1,7 @@
 class BaseController
   def initialize(request)
     @request = request
-  end
-
-  def ping
-    result = Application::Container["services.ping"].call
-    build_response(result)
+    li request
   end
 
   def not_found
